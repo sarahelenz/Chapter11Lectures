@@ -3,9 +3,6 @@ public class Student {
     String name;
     int IDNumber;
 
-    public String toString(){
-        return name;
-    }
 
     public String getName() {
         return name;
@@ -21,5 +18,9 @@ public class Student {
 
     public void setIDNumber(int IDNumber) {
         this.IDNumber = IDNumber;
+    }
+
+    public String toString(){
+        return name + " : " + IDNumber;
     }
 }

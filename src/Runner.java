@@ -5,7 +5,11 @@ public class Runner {
         System.out.println(person);
         //can access name and id number
         //Student cannot access advisor name
-        GradStudent Sarah = new GradStudent();
-        System.out.println(Sarah.IDNumber);
+        GradStudent g = new GradStudent();
+        g.setName("Sarah");
+        g.setIDNumber(623112);
+        g.setAdvisorName("hi");
+        System.out.println(g);
+
     }
 }
