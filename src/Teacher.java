@@ -17,4 +17,8 @@ public class Teacher extends Person{
     public void setDegreeLevel(String degreeLevel) {
         this.degreeLevel = degreeLevel;
     }
+
+    public void setName(String name){
+        super.setName(name);
+    }
 }
