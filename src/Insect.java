@@ -1,7 +1,7 @@
 public class Insect {
 
     private String name;
-    final int numberOfLegs = 6;
+    final int NUMBEROFLEGS = 6;
 
     public String getName() {
         return name;
